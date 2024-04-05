@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftLearning}",
+            "name": "Debug SwiftLearning",
+            "program": "${workspaceFolder:SwiftLearning}/.build/debug/SwiftLearning",
+            "preLaunchTask": "swift: Build Debug SwiftLearning"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftLearning}",
+            "name": "Release SwiftLearning",
+            "program": "${workspaceFolder:SwiftLearning}/.build/release/SwiftLearning",
+            "preLaunchTask": "swift: Build Release SwiftLearning"
+        }
+    ]
+}
